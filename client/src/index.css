@@ -1,0 +1,126 @@
+
+.logo-img {
+  width: 80px;
+}
+.nav-profile {
+  width: 35px;
+  border-radius: 50%;
+}
+.headfix {
+  top: 80%;
+  height: 100px;
+}
+.form-control:focus {
+  border-color:rgb(220,53,69);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 2px rgb(220,53,69);
+}
+.cardlist a {
+  text-decoration: none;
+  color: #000000 ;
+
+}
+.cardlist a:hover {
+  color: rgb(220,53,69) !important;
+}
+.pagination > li > span {
+  border-color:rgb(220,53,69) !important;
+  cursor: pointer;
+}
+
+.pagination > li.active > span{
+  color: #fff !important;
+  background-color: rgb(220,53,69) !important;
+}
+.single-company-name a {
+  text-decoration: none;
+  color: #000000;
+}
+.apply-mail span {
+  color: rgb(220,53,69);
+}
+.single-company-name a:hover {
+  color: rgb(220,53,69);
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  width: 100%;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.css-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.css-center a {
+  
+  text-decoration: none;
+  color: rgb(220,53,69);
+}
+.css-sign-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  align-content: flex-start;
+}
+.sign .card  {
+  width: 25rem;
+}
+@media only screen and (max-width: 770px) {
+  .headfix {
+      top: 80%;
+      height: 130px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .companyimg {
+      width: 60px;
+  }
+  .companybtn {
+      font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .sign .card  {
+      width: 100% !important;
+  }
+
+  .sign .card form   {
+     padding: 10px
+  }
+}
+.test-photo-upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  cursor: pointer;
+}
+.text-small-image {
+  font-size: 0.5rem;
+}
+.dropdown-toggle{
+  cursor: pointer;
+}
+.comp-menu span{
+  cursor: pointer;
+}
+.comp-menu span:active{
+  cursor: pointer;
+  background-color: rgb(220,53,69);
+  color: #fff;
+}
+.btn-setups{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
